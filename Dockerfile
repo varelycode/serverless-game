@@ -15,7 +15,7 @@ RUN npm install react-scripts@3.4.1 -g
 # add app
 COPY . ./
 RUN npm run build
-
+fjdslkfdlsknflsdk
 # start app
 FROM nginx:stable-alpine
 COPY --from=build /app/build /usr/share/nginx/html
