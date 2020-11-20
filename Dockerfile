@@ -1,5 +1,3 @@
-Automatically fail
-
 # pull official base image
 FROM node:alpine as build
 
