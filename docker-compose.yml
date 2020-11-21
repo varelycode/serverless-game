@@ -6,6 +6,6 @@ services:
     container_name: game_client 
     image: tranphillip/serverless-game:latest
     ports:
-      - 3000:3000
+      - 80:80
     environment: 
       - CHOKIDAR_USEPOLLING=true
