@@ -4,7 +4,7 @@ services:
 
   client: 
     container_name: game_client 
-    image: tranphillip/serverless-game:latest
+    image: game_dev
     ports:
       - 80:80
     environment: 

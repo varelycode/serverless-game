@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          pipeline test successful
+          Hello this is me editing things ok. 
         </p>
         <a
           className="App-link"
